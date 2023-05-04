@@ -1,5 +1,6 @@
-var models = ['Hridoy', 22, 10, 30, 55, 66, 77, 88, 99];
+var Models = ['Hrdyo', 'true', 'Shumi'];
+var number = [11, 22, 33]
 
-var finde = models.indexOf('Hridoy');
-
-console.log(finde)
+if(Models[1] == 'true'){
+    console.log('Yes tumi java script er Gondi par korte parbe insallah')
+}

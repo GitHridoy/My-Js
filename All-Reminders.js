@@ -25,7 +25,14 @@ var friendsAge = [11, 22, 30, 40, 24, 10]
 // Finde element of index number
 var models = ['Hridoy', 22, 10, 'apple', 55, 66, 77, 88, 99];
 var finde = models.indexOf('apple');
-console.log(finde)
+// console.log(finde)
+
+var Array_Type = ['Hridoy', 22, 'Tuhin'];
+console.log(typeof(Array_Type[0]))
+// All property name
+var object = {
+    keys: 'value',
+}
 
 
 // // switch mathod এর কাজ হল সিরিয়াল বাই চেক না করে ডাইরেক্ট মেইন টাকে দ্রুত আউট পুট দিবে
