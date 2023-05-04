@@ -1,16 +1,5 @@
-function Evennumber(Numbers){
-           const Numbersvag = Numbers % 2;
-           if(Numbersvag === 0){
-              return true;
-           }
-           else{
-              return false;
-           }
-}
+var models = ['Hridoy', 22, 10, 30, 55, 66, 77, 88, 99];
 
+var finde = models.indexOf('Hridoy');
 
-const adding = 120;
-
-const Calling = Evennumber(adding);
-
-console.log(Calling)
+console.log(finde)

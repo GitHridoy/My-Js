@@ -5,5 +5,5 @@ var nayikas = ['mahi', 'opu', 'sabnoor', 'sabana'];
 // finde array length
 console.log(friendsAge.length);
 
-//finde spacific array number
+//finde spacific element by index number
 console.log(friendsAge[1]);

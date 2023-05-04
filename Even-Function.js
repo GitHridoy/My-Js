@@ -1,16 +1,16 @@
-function Evennumber(Numbers){
-    const Numbersvag = Numbers % 2;
-    if(Numbersvag === 0){
-       return true;
-    }
-    else{
-       return false;
-    }
+function Hridoy(Even){
+   const vag = Even % 2;
+   if(vag === 0){
+      return true;
+   }
+   else{
+      return false;
+   }
 }
 
 
-const adding = 120;
+const Item = 120;
 
-const Calling = Evennumber(adding);
+const Function = Hridoy(Item);
 
-console.log(Calling)
+console.log(Function)
