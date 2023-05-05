@@ -1,6 +1,5 @@
-var Models = ['Hrdyo', 'true', 'Shumi'];
-var number = [11, 22, 33]
+var num = 22;
 
-if(Models[1] == 'true'){
-    console.log('Yes tumi java script er Gondi par korte parbe insallah')
-}
+num += 8;
+
+console.log(num)

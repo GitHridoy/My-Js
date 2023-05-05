@@ -27,8 +27,39 @@ var models = ['Hridoy', 22, 10, 'apple', 55, 66, 77, 88, 99];
 var finde = models.indexOf('apple');
 // console.log(finde)
 
+
+// এটা দিয়ে যোকোনো এরের ভিতরে থাকা টাইপ অফ বের করতে পারে
 var Array_Type = ['Hridoy', 22, 'Tuhin'];
-console.log(typeof(Array_Type[0]))
+// console.log(typeof(Array_Type[0]))
+
+
+
+// var declaration
+var tomatoprice = 25;
+// var value update
+tomatoprice = 30;
+
+
+// add some value the existing value
+var price1 = 55;
+var price2 = 60;
+price1 = price1 + 10;
+
+// add some value more shorthand
+price2 += 5;
+console.log(price2);
+
+
+// All push pop unshift shift
+var model = ['symphony', 'walton', 'lenevo', 'tinmo', 'winmax'];
+// model.pop() এটা দিয়ে সেস এলিমেন্ট রেমুভ করা হয়
+// model.push('huawei') এটা দিয়ে সেস এলিমেন্ট যোগ করা হয়
+// model.unshift('apple') এটা দিয়ে প্রথম এলিমেন্ট যোগ করা হয়
+// model.shift() এটা দিয়ে প্রথম এলিমেন্ট রিমুভ করা হয়
+// var Slicer = model.slice(1, 3); এটা দিয়ে নিদ্রিস্ট এলিমেন্ট কে রেখে বাদ বাকি ফেলে দেয়া যায়
+// model.includes('walton') এটা দিয়ে যাচাই করা যায় যে এরের ভিতরে এলিমেন্ট টা আছে তো ট্রু অথবা ফলস
+
+
 // All property name
 var object = {
     keys: 'value',
