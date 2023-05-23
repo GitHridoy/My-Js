@@ -1,15 +1,34 @@
-function Add(item1, item2){
-   let Total = item1 + item2;
-   if(Total == 40){
-    console.log('Right this is true')
-   }
-   else{
-    console.log('You are also wront way')
-   }
-
+function OddNum(Numbers){
+       for(let is = 0; is < Numbers.length; is++){
+             let index = is;
+             let Element = Numbers[index];
+             if(Element % 2 == 1){
+                console.log(index, Element)
+             }
+       }
 }
 
-let Add1 = 20;
-let Add2 = 20;
 
-Add(Add1, Add2);
+
+let Addnum = [11, 22, 130, 44, 55, 56, 88, 99, 98, 100, 10, 5, 6];
+
+let calling = OddNum(Addnum)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
