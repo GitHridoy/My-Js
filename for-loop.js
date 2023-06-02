@@ -38,3 +38,11 @@ for(var is = 0; is < model.length; is++){
     }
     console.log(finde)
 }
+
+// এটা দিয়ে ফর লুপের বাহিরে থাকা মানকে ইনডেক্স এর সাথে বার বার জোগ করা যায়
+let sum = 0;
+
+for(let is = 1; is < 10; is++){
+    sum = sum + is;
+    console.log(is, sum)
+}
