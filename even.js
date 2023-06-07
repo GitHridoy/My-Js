@@ -8,7 +8,7 @@ while(number <= 20){
 
 // এটা ইভেন লুপ এবং বেজোর  সংখা আউটপুট বানানোর আইডিয়া 
 var num = 1;
-while(num <= 20){
+while(num <= 21){
     console.log(num);
     num = num + 2;
 }

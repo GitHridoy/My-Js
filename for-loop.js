@@ -47,6 +47,11 @@ for(let is = 1; is < 10; is++){
     console.log(is, sum)
 }
 
+// এটা দিয়ে বেজড় সংখা আউটপুট করা যায়
+for(let sum = 1; sum <= 113; sum = sum + 2){
+    console.log(sum)
+}
+
 // এটা ফর লুপ ফেকটোরিয়াল মেথডে আউটপুট বানানোর আইডিয়া 
 for(let num = 1; num <= 123; num = num + 2){
     console.log(num)

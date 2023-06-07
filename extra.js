@@ -1,15 +1,6 @@
-function Getfact (Numbers){
-    let fact = 1;
-    for(let is = 1; is <= Numbers; is++){
-         fact = fact * is;
-         console.log(fact)
-    }
-    
+
+
+
+for(let sum = 1; sum <= 113; sum = sum + 2){
+    console.log(sum)
 }
-
-
-
-let Addfact = 5;
-
-Getfact(Addfact)
-
