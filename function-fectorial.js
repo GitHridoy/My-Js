@@ -1,3 +1,4 @@
+// এটা ফেক্টোরিয়াল ফাংসন
 function Getfact (Numbers){
     let fact = 1;
     for(let is = 1; is <= Numbers; is++){
@@ -6,10 +7,6 @@ function Getfact (Numbers){
     }
     
 }
-
-
-
 let Addfact = 5;
 
 Getfact(Addfact)
-

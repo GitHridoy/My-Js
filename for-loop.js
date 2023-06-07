@@ -46,3 +46,13 @@ for(let is = 1; is < 10; is++){
     sum = sum + is;
     console.log(is, sum)
 }
+
+// এটা ফর লুপ ফেকটোরিয়াল মেথডে আউটপুট বানানোর আইডিয়া 
+for(let num = 1; num <= 123; num = num + 2){
+    console.log(num)
+}
+
+for(let num = 1; num <= 123;){
+    num = num + 2;
+    console.log(num);
+}
