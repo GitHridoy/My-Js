@@ -60,6 +60,14 @@ var model = ['symphony', 'walton', 'lenevo', 'tinmo', 'winmax'];
 // model.includes('walton') এটা দিয়ে যাচাই করা যায় যে এরের ভিতরে এলিমেন্ট টা আছে তো ট্রু অথবা ফলস
 
 
+// এটা দিয়ে স্ট্রিং এর ভেতরে থাকা নিদ্রিস্ট ইন্ডেক্স এর লেন্থ বের করা যায়
+let names = ['hridoy', 'rupas', 'adnan'];
+
+let finde = names[1].length;
+console.log(finde)
+
+
+
 // All property name
 var object = {
     keys: 'value',
