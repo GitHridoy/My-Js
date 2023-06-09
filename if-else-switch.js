@@ -51,3 +51,18 @@ switch(name){
         default:
             console.log('Na vai bad den')
 }
+
+// ইফ এলস এর ভাল একটি মেথড
+
+        let Numbers = 39;
+        if(Numbers >= 80 && Numbers <= 100){
+        document.write('A+');
+        }else if(Numbers >= 60 && Numbers <= 79){
+            document.write('A-');
+        }else if(Numbers >= 40 && Numbers <= 59){
+            document.write('B+');
+        }else if(Numbers >= 33 && Numbers <= 39){
+            document.write('B');
+        }else{
+            document.write('Fail')
+        }

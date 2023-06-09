@@ -1,10 +1,10 @@
-function fectorial (number){
-         let fact = 1;
-         for(let is = 1; is <= number.length; is++){
-           number = number * is;
-            console.log(number)
-         }
+let names = 'How to make a website in html css javascript';
+
+let Num = 2 + 2;
+Num += 2;
+
+if(names.includes('How') == true){
+      console.log(Num)
 }
 
-fectorial(5);
 
