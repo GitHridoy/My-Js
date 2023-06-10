@@ -26,3 +26,11 @@ while(is < company.length){
     console.log(company[is])
     is++
 }
+
+// এটা ডু হোয়াইল লুপ মেথড
+let is = 1;
+        do{
+            document.write('<button>Login</button>');
+            is = is + 2;
+        }
+        while(is <= 8);

@@ -1,10 +1,11 @@
-let names = 'How to make a website in html css javascript';
-
-let Num = 2 + 2;
-Num += 2;
-
-if(names.includes('How') == true){
-      console.log(Num)
+let Pc = {
+      Ram: '4gb',
+      HDD: 'ssd',
+      Price: 13000
 }
 
 
+
+if(Pc[1] == 'ssd'){
+      console.log('This is right code')
+}

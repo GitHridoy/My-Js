@@ -61,3 +61,9 @@ for(let num = 1; num <= 123;){
     num = num + 2;
     console.log(num);
 }
+
+// এটা ফর ইন লুপ
+let names = ['Hridoy', 'sohag', 'rubina', 'nodi', 'dinu','Hassan'];
+       for(let items in names){
+       document.write(names[items]+'<br>');
+     }

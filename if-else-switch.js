@@ -66,3 +66,22 @@ switch(name){
         }else{
             document.write('Fail')
         }
+
+// ইফ এলস আর আরো একটি মেথড
+        let Marks = 50;
+        switch(true){
+            case (Marks<= 100 && Marks >= 80):
+            document.write('A+');
+            break;
+            case (Marks < 80 && Marks >= 60):
+                document.write('A-');
+                break;
+            case (Marks < 60 && Marks >= 40):
+                document.write('B+');
+                break;
+            case (Marks < 40 && Marks >= 33):
+                document.write('B');
+            default:
+                document.write('Fail');
+                    
+        }
