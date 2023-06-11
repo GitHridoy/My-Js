@@ -62,8 +62,34 @@ for(let num = 1; num <= 123;){
     console.log(num);
 }
 
-// এটা ফর ইন লুপ
-let names = ['Hridoy', 'sohag', 'rubina', 'nodi', 'dinu','Hassan'];
-       for(let items in names){
-       document.write(names[items]+'<br>');
-     }
+
+
+// এটা অবজেক্ট ফর লুপ মেথড
+var Mobile = {
+    Model: 'I75',
+    Ram: '2GB',
+    CPU: 'MTK',
+    Price: 2400,
+    
+}
+
+var finde = Object.keys(Mobile);
+
+for(var is = 0; is < finde.length; is++){
+    var Total = finde[is];
+    console.log(Total)
+}
+
+
+// এটা ফেক্টোরিয়াল ফাংসন
+function Getfact (Numbers){
+    let fact = 1;
+    for(let is = 1; is <= Numbers; is++){
+         fact = fact * is;
+         console.log(fact)
+    }
+    
+}
+let Addfact = 5;
+
+Getfact(Addfact)
