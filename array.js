@@ -53,3 +53,14 @@ var model = ['symphony', 'walton', 'lenevo', 'tinmo', 'winmax'];
 // model.shift() এটা দিয়ে প্রথম এলিমেন্ট রিমুভ করা হয়
 // var Slicer = model.slice(1, 3); এটা দিয়ে নিদ্রিস্ট এলিমেন্ট কে রেখে বাদ বাকি ফেলে দেয়া যায়
 // model.includes('walton') এটা দিয়ে যাচাই করা যায় যে এরের ভিতরে এলিমেন্ট টা আছে তো ট্রু অথবা ফলস
+
+
+
+// এরে কে স্প্লিট স্লাইস করার মেথড
+let Names = 'Din gelo: tomar o phtho cahia: sohena jatona tomaro asay bosia puri ami ami agune';
+
+// let Spliting = Names.split(' '); এটার কাজ স্ট্রিং কে এরে তে রুপান্তর করা
+// let Spliting = Names.split('.'); স্ট্রিং এর ভিতরে যতগুলো ডট থাকবে ততবার এরে হিসাবে আলাদা করে দিবে
+// let Spliting = Names.split(''); এটার কাজ হল স্টিং এর ভিতরের প্রত্তেকটা কেরেকটার কে আলাদা করে এরে বানান
+// let Sliceing = Spliting.slice(1, 7); এটার কাজ হল নিরদিস্ট অংসকে কেটে ফেলা
+// let Spliting = Names.split(':'); স্ট্রিং এর ভিতরে যতগুলো ডট থাকবে ততবার এরে হিসাবে আলাদা করে দিবে
