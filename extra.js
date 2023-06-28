@@ -1,14 +1,12 @@
 
 
+let first = 10;
+let second = 1;
+
+let temp = first;
+first = second;
+second = temp;
 
 
 
-
-let sum = 1;
-
-for(let i = 0; i < 21; i++){
-    sum = sum + i;
-    console.log(i, sum)
-}
-
-
+console.log(first, second)

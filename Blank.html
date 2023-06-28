@@ -4,24 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1{
-            color: red;
-        }
-        div{
-            display: flex;
-        }
-    </style>
 </head>
 <body>
+    
+
+
     <script>
-      let item1 = ['A', 'B'];
-      let item2 = ['C', 'D'];
+        let Numbers = [22, 33, 54, 66, 88, 100, 21, 43, 77];
 
-      let convert = item1.concat(item2);
-      document.write(convert)
-
-        
+        let finde = Numbers.filter(function(Mynum){
+            return Mynum>50;
+            
+        })
+        document.write(finde)
     </script>
 </body>
 </html>
