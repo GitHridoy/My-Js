@@ -1,16 +1,8 @@
 
 
-// const fibo = [0, 1];
-
-// for(let is = 2; is <= 10; is++){
-//     fibo[is] = fibo[is-1] + fibo[is-2];
-    
-// }
-// console.log(fibo)
+var model = ['symphony', 'walton', 'lenevo', 'tinmo', 'winmax'];
 
 
+var SpliceRemover = model.splice(1, 3);
 
-function add(a, b){
-    return a + b;
-  }
-  console.log(add("adam" + "eve"))
+console.log(model)

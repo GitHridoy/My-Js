@@ -93,3 +93,15 @@ function Getfact (Numbers){
 let Addfact = 5;
 
 Getfact(Addfact)
+
+
+// এটাকে বলা হয় ফিবোনাচ্চি মেথড 
+0,1,1,2,3,5,8,13
+
+const fibo = [0, 1];
+
+for(let is = 2; is <= 10; is++){
+    fibo[is] = fibo[is-1] + fibo[is-2];
+    
+}
+console.log(fibo)
